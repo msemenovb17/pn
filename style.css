@@ -1,0 +1,65 @@
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(45, 52, 54, 0.8); 
+    border-radius: 12px;
+    border: 1px solid #55efc4; 
+}
+
+.game-description p {
+    color: #ffffff;
+    font-size: 1.1em;
+    line-height: 1.6; 
+    text-align: justify; 
+    margin: 15px 0;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+
+.about-game:hover {
+    box-shadow: 0 0 15px rgba(85, 239, 196, 0.3); 
+    transition: 0.3s;
+}
+
+.steam-button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 15px;
+    background: linear-gradient(to right, #55efc4, #00b894); /* Зеленый градиент */
+    color: #2d3436 !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.steam-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(85, 239, 196, 0.3); /* Свечение зеленым */
+}
+.gg {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(45, 52, 54, 0.8); 
+    border-radius: 12px;
+    border: 1px solid #55efc4; 
+}
+
+.ggg p {
+    color: #ffffff;
+    font-size: 1.1em;
+    line-height: 1.6; 
+    text-align: justify; 
+    margin: 15px 0;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+
+.gg:hover {
+    box-shadow: 0 0 15px rgba(85, 239, 196, 0.3); 
+    transition: 0.3s;
+}
