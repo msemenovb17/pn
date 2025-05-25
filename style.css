@@ -1,3 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #2d3436;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #fdcb6e;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #e17055;
+}
+
+h1 {
+    text-align: center;
+    color: #fdcb6e;
+    margin: 40px 0;
+}
+
+.skin-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skin-card {
+    background: #3a3f44;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.skin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.price {
+    color: #55efc4;
+    font-size: 1.2em;
+    margin: 15px 0;
+    font-weight: bold; 
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.rare {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.covert {
+    background: #e74c3c;
+}
+
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.about-game {
+    max-width: 800px;
     margin: 40px auto;
     padding: 20px;
     background: rgba(45, 52, 54, 0.8); 
